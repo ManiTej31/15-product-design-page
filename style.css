@@ -1,0 +1,275 @@
+body{
+    background-color: #000000;
+    font-family:'Montserrat', Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+nav{
+    margin-top: 30px;
+}
+
+.logo{
+    height: 30px;
+    margin-left: 50px;
+}
+
+.nav-items{
+    list-style-type: none;
+    display:flex;
+    float: right;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-list-item{
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.nav-list-item:hover{
+    color: #EF4040;
+}
+
+.top-container{
+    display: flex;
+    width: 100%;
+}
+
+.top-img{
+    height: 575px;
+    margin-bottom:5px;
+    margin-left: 50px;
+}
+
+.top-right-text-container{
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+}
+
+.red{
+    font-size: 20px;
+    color:#EF4040;
+}
+
+.top-h1{
+    font-size: 70px;
+    margin: 0;
+} 
+
+.about-me{
+    color:#ffffff;
+    background-color: #EF4040;
+    width:fit-content;
+    border: none;
+    padding: 10px 25px;
+}
+
+.about-me:hover{
+    background-color: red;
+}
+
+.bg-div{
+    width: 50%;
+    background-color: #181818;
+    height: 700px;
+    z-index: -1;
+    margin-left: 0;
+}
+
+.cards{
+    color: #ffffff;
+}
+
+.know-more{
+    color:#EF4040;
+    font-size: 15px;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-top: -570px;
+}
+
+.card{
+    background-color: #1E1E1E;
+    padding: 10px 65px;
+}
+
+.card:hover{
+    box-shadow: 0 0 10px rgb(236, 236, 236);
+}
+ 
+h6{
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.stats-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.stat{
+    margin-right: 20px;
+    background-color: #1E1E1E;
+    margin: 10px;
+    padding: 10px 25px;
+    text-align: center;
+}
+
+.middle-container{
+    display: flex;  
+    justify-content: center; 
+    margin-top: 50px; 
+}
+
+.exp{
+    margin-right: 10px;
+}
+
+.exp-h1{
+    color: #EF4040;
+    font-size: 70px;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.exp-span{
+    font-size: 20px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.stat-h{
+    color: #EF4040;
+    font-size: 40px;
+    margin: 0px;
+}
+
+.stat-p{
+    margin:0;
+    color:#ffffff;
+}
+
+.stat:hover{
+    box-shadow: 0 0 10px rgb(236, 236, 236);
+}
+
+.featured-container{
+    margin-top: 150px;
+}
+.featured-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.featured-text{
+    color:#ffffff;
+    margin-bottom: 50px;
+    padding-left: 110px;
+    padding-right: 50px;
+}
+
+.featured-text>h3{
+    margin: 0;
+}
+
+.view-all-btn{
+    color: white;
+    background-color: #EF4040;
+    padding: 10px 20px;
+    margin-right: 80px;
+}
+
+.tattoo-img{
+    height: 300px;
+}
+
+.home-decor-img{
+    height: 300px;
+    width: 510px;
+}
+
+.featured-project-container{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 10px;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+
+.project-img-container{
+    padding: 20px 15px;
+    background-color: #1E1E1E;
+    width: fit-content;
+}
+
+.project-h{
+    color: #ffffff;
+    margin-bottom: 0;
+}
+
+.contact{
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 150px;
+    width:fit-content;
+    align-items: center;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+.contact-content{
+    margin-right:100px;
+}
+
+.contact-btn{
+    background-color: #EF4040;
+    border: none;
+    color: #ffffff;
+    padding: 10px 25px;
+}
+
+.nav-down-ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.nav-down-list{
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+footer{
+    background-color: #1e1e1e;
+    display:flex;
+    padding: 20px 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fa-brands{
+    color: #ffffff;
+    margin-right: 30px;
+}
+
+.social{
+    margin-left: 425px;
+}
+
