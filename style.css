@@ -225,11 +225,12 @@ h6{
     align-items: center;
     justify-content: space-between;
     padding-left: 100px;
-    padding-right: 150px;
+    padding-right: 100px;
     width:fit-content;
     align-items: center;
-    margin-left: 250px;
-    margin-top: 50px;
+    /* margin-left: 250px;*/
+    /* margin-top: 50px; */
+    margin: 100px auto;
 }
 
 .contact-content{
@@ -273,3 +274,147 @@ footer{
     margin-left: 425px;
 }
 
+.bars{
+    display: none;
+}
+
+@media screen and (max-width: 675px){
+nav{
+      display:flex;
+      justify-content:space-between;
+    }
+
+    .bars{
+        display: inline;
+    }
+
+    .nav-items{
+        display: none;
+    }
+
+    .bars{
+    margin-right:20px;
+    }
+
+    .top-container{
+        flex-direction: column;
+    }
+
+    .top-img{
+        height: 400px;
+        width: 400px;
+        margin:auto;       
+    }
+
+    .top-right-text-container{
+        margin:20px;
+    }
+
+    .about-me{
+        margin: auto;
+    }
+
+    .bg-div{
+        
+        height: 1100px;
+        
+    }
+
+    .cards{
+        flex-direction:column;
+        align-items:center;
+        justify-content: center;
+        gap: 20px;
+        margin-top: -1000px;
+    }
+
+    .middle-container{
+        flex-direction: column;  
+        justify-content: center; 
+        margin:20px auto;
+    }
+
+    .stats-container{
+        margin:auto;
+    }
+
+    .featured-top{
+        flex-direction: column;
+    }
+
+    .view-all{
+       margin:20px auto;
+    }
+
+    .featured-project-container{
+        display:grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        gap: 10px;
+        padding-left: 10px;
+        padding-right: 0px;
+        margin:10px auto;
+    }
+   
+
+    .featured-container{
+        margin:auto;
+    }
+
+    .projects{
+        margin:auto;
+    }
+
+    .tattoo-img{
+        height: 200px;
+    }
+
+    .home-decor-img{
+        height: 200px;
+        width: 360px;
+    }
+    
+    .contact{
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin: 0px;
+    }
+
+    footer{
+
+        flex-direction: column;
+        padding: 20px 0px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    footer>.logo{
+        width:60px;
+        margin-bottom: 10px;
+        margin:10px auto;
+    }
+
+    .social{
+        margin:auto;
+    }
+}
+
+@media screen and (max-width: 870px){
+    .contact{
+        padding-left: 50px;
+        padding-right: 50px;       
+    }
+
+   
+}
+
+@media screen and (max-width: 1200px){
+    .featured-project-container{
+        grid-template-columns: 1fr;
+    }
+
+    .projects{
+        margin:auto;
+    }
+}
